@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  font-family: "Open Sans", sans-serif;
+}
+.navbar {
+  background-color: #fc494f;
+}
+.navbar-brand {
+  color: #fff !important;
+}
+.nav-link {
+  color: #fff !important;
+}
+
+#login .container #login-row #login-column #login-box {
+  margin-top: 80px;
+  max-width: 600px;
+  height: 340px;
+  border: 1px solid #fc494f;
+  border-radius: 5px;
+  background-color: #fc494f;
+}
+.register #login .container #login-row #login-column #login-box {
+  margin-top: 80px;
+  max-width: 600px;
+  height: 500px;
+  border: 1px solid #fc494f;
+  border-radius: 5px;
+  background-color: #fc494f;
+}
+#login .container #login-row #login-column #login-box #login-form {
+  padding: 20px;
+}
+#login
+  .container
+  #login-row
+  #login-column
+  #login-box
+  #login-form
+  #register-link {
+  margin-top: -85px;
+}
+#login .text-red {
+  font-weight: 600;
+  color: #fff !important;
+}
+#login .btn {
+  background-color: #fff;
+  color: #fc494f;
+  font-weight: 700;
+  border-radius: 4px;
+}
+#login h6 {
+  color: #fff;
+  font-weight: 400;
+}
+#login input {
+  outline: 0px;
+  border: 0px;
+  border-radius: 4px;
+}
+.form-control:active,
+.form-control:focus,
+.form-control:focus:active {
+  background-color: #fff !important;
+  outline: black !important;
+  box-shadow: none;
+  border-radius: 0px;
+  border: 1px solid #fc494f;
+  color: #000;
+}
+.btn:active,
+.btn:focus,
+.btn:focus:active {
+  outline: black !important;
+  box-shadow: none;
+  border: none;
+}
+.reg-sign {
+  margin-left: 10px;
+  color: #800079;
+}
+.messages {
+  font-weight: 700 !important;
+}
+.as {
+  align-self: center;
+}
+.home-image {
+  padding-top: 100px;
+}
